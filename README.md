@@ -1,4 +1,6 @@
-[![Travis](https://img.shields.io/travis/jcpsantiago/ISIcalc.svg?style=flat-square)](https://travis-ci.org/jcpsantiago/ISIcalc)
+[![Travis](https://img.shields.io/travis/jcpsantiago/IScalc.svg?style=flat-square)](https://travis-ci.org/jcpsantiago/IScalc)
+[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/jcpsantiago/IScalc?branch=master&svg=true)](https://ci.appveyor.com/project/jcpsantiago/IScalc)
+[![Coverage status](https://codecov.io/gh/jcpsantiago/IScalc/branch/master/graph/badge.svg)](https://codecov.io/github/jcpsantiago/IScalc?branch=master)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg?longCache=true&style=flat-square)
 
 # IScalc
@@ -9,7 +11,7 @@ paste a function.
 You can install it with
 ``` r
 # install.packages("devtools")
-devtools::install_github("jcpsantiago/ISIcalc")
+devtools::install_github("jcpsantiago/IScalc")
 ```
 ## Indexes
 
@@ -22,7 +24,7 @@ Fasting indices:
 
 OGTT indices:
 * [Cederholm](http://www.sciencedirect.com/science/article/pii/016882279090040Z)
-* [ISI<sub>0,120</sub>](http://www.sciencedirect.com/science/article/pii/S0168822799001163)
+* [Gutt (ISI<sub>0,120</sub>)](http://www.sciencedirect.com/science/article/pii/S0168822799001163)
 * [Matsuda (Composite Index)](http://mmatsuda.diabetes-smc.jp/english.html)
 * [NEFA-ISI](http://link.springer.com/article/10.1007%2Fs00592-016-0930-5)
 * [Stumvoll-ISI](http://care.diabetesjournals.org/content/23/3/295)
@@ -31,4 +33,5 @@ OGTT indices:
 
 ## TODO
 
-Implement [OGIS](http://webmet.pd.cnr.it/ogis/index.php).
+* Implement [OGIS](http://webmet.pd.cnr.it/ogis/index.php).
+* Reimplement the functions using switch
